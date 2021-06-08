@@ -19,7 +19,8 @@ My current worry right now is how to make an interface and how to make it intera
 Out of my 3 weeks of coding, I spent the first two weeks learning html and setting up my enviorment.
 
 
-Any tips zomglings? or any one else out there!
+Any tips zomglings? or any one else out there! 
+  also i forgot i made a github in highschool so thats why it shows 2 contributors 
 
 
 
