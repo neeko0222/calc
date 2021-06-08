@@ -1,9 +1,3 @@
-# Addition
-# def add(a, b):
-#     sum=a+b
-#     return sum
-
-
 # test 1/2
 print('code starts here')
 
@@ -19,25 +13,6 @@ c = Addition(10000, 2)
 c.sum() 
 print(Addition.sum(c))
 
-
-
-
-# add00 = Addition(11, 1)
-# add01 = Addition(10, 5)
-
-# print(add00.a)
-# print(add00.b)
-# print(add00.sum)
-# print(add01.a)
-
-# print(add2.num)
-
-
-# might need a function for sum
-
-
-def sum():
-    pass
 
 
 # test 2/2
