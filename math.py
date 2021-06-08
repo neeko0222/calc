@@ -9,11 +9,11 @@ class Addition:
     def __init__(self, a, b):
         self.a = a
         self.b = b
-    def sum(self):
-        return self.a + self.b
+    def sum(sum):
+        return sum.a + sum.b
 
     def displayfunc(z):
-        print(z.a , z.b, "=")
+        print(z.a ,"+", z.b, "=")
  
 c = Addition(2, 2)
 
