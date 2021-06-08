@@ -1,35 +1,55 @@
-# imports go here i guess
+# imports go here i guess, apparently therees a math operations import! that would of beem helpful!!!
 
 # test 1/2
 print('code starts here')
 
-#would  __add__ be better? I need to check up on diffrent ones. is __init__ just the default?
+#would  __add__ be better? I need to check up on different methods. is __init__ just the default?
+
+#I need to find a way to add them into the add/sub function
+class Symbol_func:
+    def __init__(symbols):
+        symbols.list = ['+','-']
+  
+  #stuck here
+
+
+        
+    
+#combine these two somehow
 
 class Calculate:
     def __init__(self, a, b):
         self.a = a
         self.b = b
     def add(add):
-        return add.a + add.b
+        return add.a + add.b  # tried just adding "+" in between here no error but it didnt work! :(
     def sub(sub):
         return sub.a - sub.b
+        
+#need to figure out how to show the symbols for operations
+    def displayfunc(display):
+        print(display.a , display.b)
 
 # is there a cleaner way to do this? and why do I not need to use int() here? what is the relationship between integer/strings within a class/function? so many questions!!!
 # also when should i use print vs return. I know return changes the flow of the program, so would I use return here instead of print?
 
-    # def displayfunc(display):
-    #     print(display.a ,"+", display.b)
- 
-entry00 = Calculate(10, 10)
-entry01 = Calculate(5,5)
 
-entry01.add() 
+
+
+ 
+entry00 = Calculate(11, 10)
+entry01 = Calculate(55,5)
+
+
+
+
+
 
 entry00.sub()
 
-# entry01.displayfunc()
-print('=', Calculate.add(entry01))
-print('=', Calculate.sub(entry00))
+entry01.displayfunc()
+# print('=', Calculate.add(entry01))
+print('=', Calculate.sub(entry01))
 
 
 
