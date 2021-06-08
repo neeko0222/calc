@@ -7,33 +7,37 @@ print('code starts')
 
 #would  __add__ be better? I need to check up on diffrent ones. is __init__ just the default?
 
-class Subtraction:
-    def __init__(self, a, b):
-       pass
+
         
-class Addition:
+class Calculate:
     def __init__(self, a, b):
         self.a = a
         self.b = b
-    def sum(sum):
-        return sum.a + sum.b
+    def add(add):
+        return add.a + add.b
+
+    
+
+
+
+
 
 # is there a cleaner way to do this? and why do I not need to use int() here? what is the relationship between integer/strings within a class/function? so many questions!!!
 # also when should i use print vs return. I know return changes the flow of the program, so would I use return here instead of print?
-    
+
     def displayfunc(display):
         print(display.a ,"+", display.b)
  
 
 
 
-c = Addition(19, 96)
+c = Calculate(10, 10)
 
-c.sum() 
+c.add() 
 
 
 c.displayfunc()
-print('=', Addition.sum(c))
+print('=', Calculate.add(c))
 
 
 
