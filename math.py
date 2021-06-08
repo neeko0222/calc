@@ -12,8 +12,9 @@ class Addition:
     def sum(sum):
         return sum.a + sum.b
 
-    def displayfunc(z):
-        print(z.a ,"+", z.b, "=")
+# is there a cleaner way to do this? and why do I not need to use int() here, what is the relationship between integer/strings within a class/function? so many questions
+    def displayfunc(display):
+        print(display.a ,"+", display.b, "=")
  
 c = Addition(2, 2)
 
