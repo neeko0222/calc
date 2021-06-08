@@ -1,7 +1,7 @@
 # calculator twitch challenge / code review
 
 
-I've been learning how to program for the past 3 weeks. This is my first week of actually writing python code.
+I've been learning how to program for the past month now.
 
 At first I was going to write several functions for each operation until I read about Classes and how they are reusable. So I tried to use Classes instead.
 
