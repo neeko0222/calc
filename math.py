@@ -3,7 +3,9 @@
 
 
 # test 1/2
-print('code starts here')
+print('code starts')
+
+#would  __add__ be better? I need to check up on diffrent ones. is __init__ just the default?
 
 class Addition:
     def __init__(self, a, b):
@@ -12,17 +14,19 @@ class Addition:
     def sum(sum):
         return sum.a + sum.b
 
-# is there a cleaner way to do this? and why do I not need to use int() here, what is the relationship between integer/strings within a class/function? so many questions
+# is there a cleaner way to do this? and why do I not need to use int() here? what is the relationship between integer/strings within a class/function? so many questions!!!
+# also when should i use print vs return. I know return changes the flow of the program, so would I use return here instead of print?
+    
     def displayfunc(display):
-        print(display.a ,"+", display.b, "=")
+        print(display.a ,"+", display.b)
  
-c = Addition(2, 2)
+c = Addition(19, 96)
 
 c.sum() 
 
 
 c.displayfunc()
-print(Addition.sum(c))
+print('=', Addition.sum(c))
 
 
 
@@ -32,4 +36,4 @@ operations = []
 pass
 
 # test 2/2
-print('code ended')
+print('code ends')
