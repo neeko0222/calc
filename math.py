@@ -7,6 +7,10 @@ print('code starts')
 
 #would  __add__ be better? I need to check up on diffrent ones. is __init__ just the default?
 
+class Subtraction:
+    def __init__(self, a, b):
+       pass
+        
 class Addition:
     def __init__(self, a, b):
         self.a = a
@@ -20,6 +24,9 @@ class Addition:
     def displayfunc(display):
         print(display.a ,"+", display.b)
  
+
+
+
 c = Addition(19, 96)
 
 c.sum() 
