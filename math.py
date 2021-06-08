@@ -9,22 +9,26 @@ print('code starts here')
 
 
 class Addition:
-    def __init__(self, a, b, sum):
+    def __init__(self, a, b):
         self.a = a
         self.b = b
-
     def sum(self):
-        # idk what to put here since i cant get a or b
-        return self.sum 
+        return self.a + self.b
+
+c = Addition(10000, 2)
+c.sum() 
+print(Addition.sum(c))
 
 
-add00 = Addition(11, 1)
-add01 = Addition(10, 5)
-# add2 = Addition(4)
-print(add00.a)
-print(add00.b)
-print(add00.sum)
-print(add01.a)
+
+
+# add00 = Addition(11, 1)
+# add01 = Addition(10, 5)
+
+# print(add00.a)
+# print(add00.b)
+# print(add00.sum)
+# print(add01.a)
 
 # print(add2.num)
 
